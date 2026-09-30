@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Utilidades Curiúva</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #fff5f8, #f4d5df);
+            color: #5b1830;
+        }
+
+        header {
+            background: #7d1738;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 16px;
+        }
+
+        nav {
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+            overflow-x: auto;
+            white-space: nowrap;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+        }
+
+        nav a {
+            color: #7d1738;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #d32f65;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 20px 20px;
+        }
+
+        .hero h2 {
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+
+        .hero p {
+            font-size: 17px;
+            max-width: 650px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        /* FOTO.JPG */
+        .foto-area {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px 15px 35px;
+        }
+
+        .foto-area img {
+            display: block;
+            width: 320px;
+            height: 430px;
+            object-fit: contain;
+            object-position: center;
+            background: white;
+            padding: 5px;
+            border-radius: 18px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.20);
+        }
+
+        .whatsapp {
+            text-align: center;
+            padding: 10px 20px 45px;
+        }
+
+        .whatsapp a {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 15px 28px;
+            border-radius: 40px;
+            font-size: 17px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.18);
+        }
+
+        .whatsapp a:hover {
+            background: #1ebe5d;
+        }
+
+        footer {
+            background: #7d1738;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 768px) {
+
+            header h1 {
+                font-size: 25px;
+            }
+
+            nav {
+                justify-content: flex-start;
+            }
+
+            .hero h2 {
+                font-size: 24px;
+            }
+
+            .foto-area img {
+                width: 290px;
+                height: 390px;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            header {
+                padding: 20px 10px;
+            }
+
+            header h1 {
+                font-size: 21px;
+            }
+
+            header p {
+                font-size: 14px;
+            }
+
+            nav {
+                gap: 16px;
+                padding: 12px;
+            }
+
+            nav a {
+                font-size: 13px;
+            }
+
+            .hero {
+                padding: 30px 15px 15px;
+            }
+
+            .hero h2 {
+                font-size: 22px;
+            }
+
+            .hero p {
+                font-size: 15px;
+            }
+
+            .foto-area img {
+                width: 250px;
+                height: 340px;
+            }
+
+            .whatsapp a {
+                font-size: 15px;
+                padding: 14px 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="inicio">
+        <h1>UTILIDADES CURIÚVA</h1>
+        <p>Miah Oliver Studio</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#casa">Casa</a>
+        <a href="#roupas">Roupas</a>
+        <a href="#acessorios">Acessórios</a>
+        <a href="#perfumes">Perfumes</a>
+        <a href="#maquiagens">Maquiagens</a>
+        <a href="#stanley">Stanley</a>
+        <a href="#xerox">Xerox</a>
+        <a href="#mochilas">Mochilas</a>
+        <a href="#bolsas">Bolsas</a>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+            <h2>Bem-vindo à Utilidades Curiúva</h2>
+
+            <p>
+                Produtos e utilidades para o seu dia a dia.
+                Entre em contato conosco pelo WhatsApp.
+            </p>
+        </section>
+
+        <!-- FOTO.JPG -->
+        <section class="foto-area">
+            <img src="FOTO.JPG" alt="Foto da Utilidades Curiúva">
+        </section>
+
+        <section class="whatsapp">
+            <a href="https://wa.me/5541988704110" target="_blank" rel="noopener">
+                💬 Fale conosco pelo WhatsApp
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Utilidades Curiúva © 2026</p>
+        <p>Miah Oliver Studio</p>
+    </footer>
+
+</body>
+</html>
+```
